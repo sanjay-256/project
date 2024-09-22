@@ -13,8 +13,8 @@ function App() {
 
   if(load){
     return (
-      <div className="flex justify-center items-center min-h-screen">
-          <img src="Hand giving money.gif" alt="log" className='w-1/2 h-auto border-4 border-green-500 rounded-full'/>
+      <div className="flex justify-center items-center min-h-screen max-w-md mx-auto">
+          <img src="Hand giving money.gif" alt="log" className='h-auto border-4 border-green-500 rounded-full'/>
       </div>
     );
   }
